@@ -137,3 +137,36 @@ span{
     font-weight: 700;
     padding-left: .25rem;
 }
+
+/* box 7 */
+
+.panel{
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel .panel-logo i{
+    font-size: 1.2rem;
+}
+
+.panel .panel-logo span{
+    padding-left: .25rem;
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+
+.panel-list p{
+    display: inline;
+    margin-left: 1rem;
+}
+
+.panel-list{
+    width: 90%;
+    font-size: .85rem;
+}
+
