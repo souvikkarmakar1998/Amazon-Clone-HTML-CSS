@@ -38,7 +38,10 @@
 
 /* box2 */
 
-
+.nav-address{
+    height: 40px;
+    padding-top: .90rem;
+}
 
 .add-to{
     color: #cccccc;
@@ -149,6 +152,16 @@ span{
     justify-content: space-evenly;
 }
 
+.panel-logo{
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.panel .panel-logo a{
+    color: white;
+}
+
 .panel .panel-logo i{
     font-size: 1.2rem;
 }
@@ -168,6 +181,15 @@ span{
 .panel-list{
     width: 90%;
     font-size: .85rem;
+}
+
+.panel .panel-list a{
+    color: white;
+}
+
+.panel .panel-list a:hover{
+    text-decoration: underline;
+
 }
 
 
@@ -224,6 +246,10 @@ span{
     
 }
 
+.box .box-content a:hover{
+    text-decoration: underline;
+}
+
 .box-content{
     margin-left: 1.2rem;
     margin-right: 1.2rem;
@@ -243,6 +269,8 @@ span{
     color: #324065;
 
 }
+
+
 
 /* footer panel1 */
 
